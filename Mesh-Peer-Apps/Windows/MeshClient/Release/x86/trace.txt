@@ -1,0 +1,231 @@
+17:16:32.291 Network T1 created
+17:16:32.307 Current Group: 
+17:16:32.307 Groups:
+17:16:32.307 Components:
+17:16:34.947 Set Local Device addr:0x0001 net_key_idx:0000 iv_idx:0 key_refresh:0 iv_updata:0
+17:16:34.963 Current Group: T1
+17:16:34.963 Groups:
+17:16:34.963 Components:
+17:16:34.979 Composition Data: from:1 page:0 CID:131 PID:3006 VID:1 CRPL:c8 Features:0
+17:16:35.010 Set Dev Key addr:0001 dev_key:8b 43 74 85 54 17 b0 ec 10 4d 0f 0f 29 b8 e6 7d 
+17:16:35.010 AppKey Add addr:0001 net_key_idx:0000 app_key_idx:0509
+17:16:35.057 AppKey Status from:0x0001 status:0 NetKey Index:0 ApptKey Index:509
+17:16:35.072 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0002 app_key_idx:0509
+17:16:35.072 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:2 ApptKey Index:509
+17:16:35.088 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0003 app_key_idx:0509
+17:16:35.104 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:3 ApptKey Index:509
+17:16:35.119 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1015 app_key_idx:0509
+17:16:35.119 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1015 ApptKey Index:509
+17:16:35.135 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0004 app_key_idx:0509
+17:16:35.151 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:4 ApptKey Index:509
+17:16:35.166 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0005 app_key_idx:0509
+17:16:35.166 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:5 ApptKey Index:509
+17:16:35.182 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1005 app_key_idx:0509
+17:16:35.197 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1005 ApptKey Index:509
+17:16:35.213 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1001 app_key_idx:0509
+17:16:35.229 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1001 ApptKey Index:509
+17:16:35.245 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1003 app_key_idx:0509
+17:16:35.260 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1003 ApptKey Index:509
+17:16:35.291 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1302 app_key_idx:0509
+17:16:35.307 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1302 ApptKey Index:509
+17:16:35.322 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1305 app_key_idx:0509
+17:16:35.338 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1305 ApptKey Index:509
+17:16:35.369 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1309 app_key_idx:0509
+17:16:35.385 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1309 ApptKey Index:509
+17:16:35.401 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1102 app_key_idx:0509
+17:16:35.416 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1102 ApptKey Index:509
+17:16:35.432 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe03 app_key_idx:0509
+17:16:35.448 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe03 ApptKey Index:509
+17:16:35.463 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe02 app_key_idx:0509
+17:16:35.479 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe02 ApptKey Index:509
+17:16:35.494 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe01 app_key_idx:0509
+17:16:35.542 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe01 ApptKey Index:509
+17:16:35.557 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:ff01 app_key_idx:0509
+17:16:35.557 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:ff01 ApptKey Index:509
+17:16:35.573 Model App Bind addr:0x0001 element_addr:0001 company_id:0131 model_id:0001 app_key_idx:0509
+17:16:35.588 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1 ApptKey Index:509
+17:16:35.604 AppKey Add addr:0001 net_key_idx:0000 app_key_idx:083e
+17:16:35.635 AppKey Status from:0x0001 status:0 NetKey Index:0 ApptKey Index:83e
+17:16:35.651 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0002 app_key_idx:083e
+17:16:35.651 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:2 ApptKey Index:83e
+17:16:35.666 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0003 app_key_idx:083e
+17:16:35.682 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:3 ApptKey Index:83e
+17:16:35.697 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1015 app_key_idx:083e
+17:16:35.713 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1015 ApptKey Index:83e
+17:16:35.729 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0004 app_key_idx:083e
+17:16:35.776 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:4 ApptKey Index:83e
+17:16:35.791 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0005 app_key_idx:083e
+17:16:35.791 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:5 ApptKey Index:83e
+17:16:35.807 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1005 app_key_idx:083e
+17:16:35.823 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1005 ApptKey Index:83e
+17:16:35.838 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1001 app_key_idx:083e
+17:16:35.854 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1001 ApptKey Index:83e
+17:16:35.869 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1003 app_key_idx:083e
+17:16:35.885 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1003 ApptKey Index:83e
+17:16:35.901 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1302 app_key_idx:083e
+17:16:35.916 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1302 ApptKey Index:83e
+17:16:35.932 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1305 app_key_idx:083e
+17:16:35.932 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1305 ApptKey Index:83e
+17:16:35.963 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1309 app_key_idx:083e
+17:16:35.979 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1309 ApptKey Index:83e
+17:16:35.994 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1102 app_key_idx:083e
+17:16:36.010 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1102 ApptKey Index:83e
+17:16:36.026 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe03 app_key_idx:083e
+17:16:36.041 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe03 ApptKey Index:83e
+17:16:36.057 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe02 app_key_idx:083e
+17:16:36.072 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe02 ApptKey Index:83e
+17:16:36.088 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe01 app_key_idx:083e
+17:16:36.104 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe01 ApptKey Index:83e
+17:16:36.119 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:ff01 app_key_idx:083e
+17:16:36.135 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:ff01 ApptKey Index:83e
+17:16:36.151 Model App Bind addr:0x0001 element_addr:0001 company_id:0131 model_id:0001 app_key_idx:083e
+17:16:36.166 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1 ApptKey Index:83e
+17:16:36.182 AppKey Add addr:0001 net_key_idx:0000 app_key_idx:0fb2
+17:16:36.229 AppKey Status from:0x0001 status:0 NetKey Index:0 ApptKey Index:fb2
+17:16:36.245 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0002 app_key_idx:0fb2
+17:16:36.245 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:2 ApptKey Index:fb2
+17:16:36.260 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0003 app_key_idx:0fb2
+17:16:36.276 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:3 ApptKey Index:fb2
+17:16:36.291 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1015 app_key_idx:0fb2
+17:16:36.307 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1015 ApptKey Index:fb2
+17:16:36.322 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0004 app_key_idx:0fb2
+17:16:36.338 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:4 ApptKey Index:fb2
+17:16:36.354 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:0005 app_key_idx:0fb2
+17:16:36.385 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:5 ApptKey Index:fb2
+17:16:36.401 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1005 app_key_idx:0fb2
+17:16:36.433 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1005 ApptKey Index:fb2
+17:16:36.464 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1001 app_key_idx:0fb2
+17:16:36.464 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1001 ApptKey Index:fb2
+17:16:36.495 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1003 app_key_idx:0fb2
+17:16:36.526 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1003 ApptKey Index:fb2
+17:16:36.557 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1302 app_key_idx:0fb2
+17:16:36.557 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1302 ApptKey Index:fb2
+17:16:36.572 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1305 app_key_idx:0fb2
+17:16:36.572 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1305 ApptKey Index:fb2
+17:16:36.604 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1309 app_key_idx:0fb2
+17:16:36.604 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1309 ApptKey Index:fb2
+17:16:36.619 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:1102 app_key_idx:0fb2
+17:16:36.635 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1102 ApptKey Index:fb2
+17:16:36.651 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe03 app_key_idx:0fb2
+17:16:36.666 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe03 ApptKey Index:fb2
+17:16:36.682 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe02 app_key_idx:0fb2
+17:16:36.682 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe02 ApptKey Index:fb2
+17:16:36.697 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:fe01 app_key_idx:0fb2
+17:16:36.713 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:fe01 ApptKey Index:fb2
+17:16:36.744 Model App Bind addr:0x0001 element_addr:0001 company_id:ffff model_id:ff01 app_key_idx:0fb2
+17:16:36.776 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:ff01 ApptKey Index:fb2
+17:16:36.791 Model App Bind addr:0x0001 element_addr:0001 company_id:0131 model_id:0001 app_key_idx:0fb2
+17:16:36.807 Model App Bind Status from:1 status:0 Element addr:0001 Model ID:1 ApptKey Index:fb2
+17:16:36.822 Net transmit set addr:0001 count:3 interval:50
+17:16:36.838 Net Transmit Status from:1 count:3 interval:50
+17:16:36.854 Default TTL set addr:0001 TTL:63
+17:16:36.869 Default TTL Status from:1 TTL:63 Received TTL:63
+17:16:36.901 Beacon set addr:0001 state:0
+17:16:36.901 Beacon Status from:1 state:0
+17:16:36.901 database changed
+17:16:36.916 Network opened
+17:16:36.916 done
+
+17:16:36.916 database changed
+17:16:42.542 ScanInfoGet addr:0001
+17:16:42.589 ScanInfo from:1 MaxList:10
+
+17:16:42.589 ScanStart addr:0001
+17:16:42.619 ScanStatus from:1 Status:0 Phase:1 Limit:10 Timeout:255 Type:1
+
+17:16:47.635 ScanReport from:0001 UUID c5-ab RSSI:-41
+
+17:16:49.651 Extended Scan Start addr:0001
+17:16:52.698 ScanExtendedReport from:1 status:0
+
+17:16:59.885 Provision Connect Provisioner:1 identify_duration:1 use_gatt:1
+17:16:59.885 Provision status:2 Device UUID: c5 8c 44 fa c2 1f e6 00 ea 3f 03 97 74 41 be ab 
+17:17:06.369 Provision: Device Capabilities from Server:1 Num elements:1 algo:1 pub key type:0 oob type:0 oob size:0 oob_action:0 input oob size:0 action:0
+17:17:06.369 Provision status:3 Device UUID: c5 8c 44 fa c2 1f e6 00 ea 3f 03 97 74 41 be ab 
+17:17:06.369 Provision Start Server:1 pub_key_type:0 auth_method:0 auth_action:0 auth_size:0
+17:17:07.386 Provision: end from Server:1 addr:0002 result:0 dev_key:9d 20 5a 30 8b 3e 4a b7 8e 20 20 c2 c3 82 b9 cf 
+17:17:07.386 Provision status:6 Device UUID: c5 8c 44 fa c2 1f e6 00 ea 3f 03 97 74 41 be ab 
+17:17:07.479 Provisioning disconecting Link Status:0000 provisioner:1
+17:17:07.479 Proxy Connect type:0
+17:17:14.776 Node Connecting Link Status provisioner:0 addr:0002 connected:1 over_gatt:1
+17:17:14.776 Set Dev Key addr:0002 dev_key:9d 20 5a 30 8b 3e 4a b7 8e 20 20 c2 c3 82 b9 cf 
+17:17:15.041 Composition Data: from:2 page:0 CID:131 PID:311f VID:1 CRPL:8 Features:7
+17:17:15.041 Provision status:4 Device UUID: c5 8c 44 fa c2 1f e6 00 ea 3f 03 97 74 41 be ab 
+17:17:15.057 Net transmit set addr:0002 count:3 interval:100
+17:17:15.151 Net Transmit Status from:2 count:3 interval:100
+17:17:15.166 AppKey Add addr:0002 net_key_idx:0000 app_key_idx:0509
+17:17:15.338 AppKey Status from:0x0002 status:0 NetKey Index:0 ApptKey Index:509
+17:17:15.354 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:0002 app_key_idx:0509
+17:17:15.510 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:2 ApptKey Index:509
+17:17:15.526 AppKey Add addr:0002 net_key_idx:0000 app_key_idx:083e
+17:17:15.697 AppKey Status from:0x0002 status:0 NetKey Index:0 ApptKey Index:83e
+17:17:15.713 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1013 app_key_idx:0509
+17:17:15.870 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1013 ApptKey Index:509
+17:17:15.901 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1013 app_key_idx:083e
+17:17:16.057 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1013 ApptKey Index:83e
+17:17:16.072 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1004 app_key_idx:0509
+17:17:16.229 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1004 ApptKey Index:509
+17:17:16.244 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1004 app_key_idx:083e
+17:17:16.417 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1004 ApptKey Index:83e
+17:17:16.432 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1203 app_key_idx:0509
+17:17:16.604 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1203 ApptKey Index:509
+17:17:16.619 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1203 app_key_idx:083e
+17:17:16.776 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1203 ApptKey Index:83e
+17:17:16.791 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1204 app_key_idx:083e
+17:17:16.949 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1204 ApptKey Index:83e
+17:17:16.980 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1206 app_key_idx:0509
+17:17:17.135 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1206 ApptKey Index:509
+17:17:17.167 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1206 app_key_idx:083e
+17:17:17.307 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1206 ApptKey Index:83e
+17:17:17.322 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1207 app_key_idx:083e
+17:17:17.542 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1207 ApptKey Index:83e
+17:17:17.573 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1000 app_key_idx:0509
+17:17:17.729 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1000 ApptKey Index:509
+17:17:17.744 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1000 app_key_idx:083e
+17:17:17.916 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1000 ApptKey Index:83e
+17:17:17.932 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1006 app_key_idx:0509
+17:17:18.089 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1006 ApptKey Index:509
+17:17:18.120 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1006 app_key_idx:083e
+17:17:18.276 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1006 ApptKey Index:83e
+17:17:18.292 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1007 app_key_idx:083e
+17:17:18.448 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1007 ApptKey Index:83e
+17:17:18.463 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1002 app_key_idx:0509
+17:17:18.635 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1002 ApptKey Index:509
+17:17:18.667 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1002 app_key_idx:083e
+17:17:18.808 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1002 ApptKey Index:83e
+17:17:18.838 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1300 app_key_idx:0509
+17:17:18.994 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1300 ApptKey Index:509
+17:17:19.010 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1300 app_key_idx:083e
+17:17:19.166 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1300 ApptKey Index:83e
+17:17:19.182 Model App Bind addr:0x0002 element_addr:0002 company_id:ffff model_id:1301 app_key_idx:083e
+17:17:19.354 Model App Bind Status from:2 status:0 Element addr:0002 Model ID:1301 ApptKey Index:83e
+17:17:19.369 Def trans time addr:0002 time:0
+17:17:19.463 Def Trans Time Status from:2 AppKeyIdx:83e Idx:0 Time:0
+17:17:19.479 Default TTL set addr:0002 TTL:63
+17:17:19.651 Default TTL Status from:2 TTL:63 Received TTL:63
+17:17:19.666 Relay set addr:0002 state:1 rxmit count:3 rxmit interval:100
+17:17:19.824 Relay Status from:2 state:1 count:3 interval:100
+17:17:19.854 GATT Proxy set addr:0002 state:1
+17:17:19.948 GATT Proxy Status from:2 state:1
+17:17:19.963 Friend set addr:0002 state:1
+17:17:20.072 Friend Status from:2 state:1
+17:17:20.088 Beacon set addr:0002 state:1
+17:17:20.197 Beacon Status from:2 state:1
+17:17:20.213 Filter add addr:ffff num:1 first addr:0001
+17:17:20.308 Filter Status from:2
+17:17:20.308 Provision status:5 Device UUID: c5 8c 44 fa c2 1f e6 00 ea 3f 03 97 74 41 be ab 
+17:17:20.308 Name:L3 (0002)17:17:20.308 Can be controlled using: ONOFF, LEVEL, LIGHTNESS, 
+17:17:20.322 Current Group: T1
+17:17:20.322 Groups:
+17:17:20.322 Components:
+17:17:20.322 L3 (0002)
+17:17:20.338 database changed
+17:17:20.338 done
+
+17:17:25.729 OnOff Get addr:0002 app_key_idx:0509
+17:17:25.838 OnOff Status from:2 AppKeyIdx:509 Element:0 Present:0 Target:0 RemainingTime:0
+17:17:25.838 L3 (0002) OnOff state:0
+17:17:25.838 Control Test result 109 
+17:17:30.042 OnOff Set addr:0002 app_key_idx:0509 reply:1 onoff:1 transition_time:-1 delay:0
+17:17:30.213 OnOff Status from:2 AppKeyIdx:509 Element:0 Present:1 Target:1 RemainingTime:0
+17:17:30.213 L3 (0002) OnOff state:1

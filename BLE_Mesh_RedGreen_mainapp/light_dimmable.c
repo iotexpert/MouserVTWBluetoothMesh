@@ -169,12 +169,12 @@ wiced_bt_mesh_core_config_element_t mesh_elements[] =
         .range_min = 1,                                                 // Minimum value of the variable controlled on this element (for example power, lightness, temperature, hue...)
         .range_max = 0xffff,                                            // Maximum value of the variable controlled on this element (for example power, lightness, temperature, hue...)
         .move_rollover = 0,                                             // If true when level gets to range_max during move operation, it switches to min, otherwise move stops.
-        .properties_num = 0,                      // Number of properties in the array models
-        .properties = 0,                         // Array of properties in the element.
+        .properties_num = 0,                                            // Number of properties in the array models
+        .properties = 0,                                                // Array of properties in the element.
         .sensors_num = 0,                                               // Number of sensors in the sensor array
         .sensors = NULL,                                                // Array of sensors of that element
-        .models_num = MESH_APP_NUM_MODELS_GREEN,                              // Number of models in the array models
-        .models = mesh_element1_models,                                 // Array of models located in that element. Model data is defined by structure wiced_bt_mesh_core_config_model_t
+        .models_num = MESH_APP_NUM_MODELS_GREEN,                        // Number of models in the array models
+        .models = mesh_element2_models,                                 // Array of models located in that element. Model data is defined by structure wiced_bt_mesh_core_config_model_t
     },
 
 };
