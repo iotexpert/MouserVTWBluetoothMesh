@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<booleanAttribute key="com.cypress.studio.launch.build" value="true"/>
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${project}"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/BLE_Mesh_ProvisionClient_mainapp"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${none}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${cy_tools_path:modus-shell}/bin/bash${cy_exe_platform_ext}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="&quot;--norc&quot; &quot;--noprofile&quot; &quot;${cy_tools_path:wiced-scripts}/bt_program.bash&quot; &quot;--shell=${cy_tools_path:modus-shell}&quot; &quot;--tools=${cy_tools_path:wiced-tools}&quot; &quot;--scripts=${cy_tools_path:wiced-scripts}&quot; &quot;--hex=${workspace_loc:/BLE_Mesh_ProvisionClient_mainapp}/${config_name:BLE_Mesh_ProvisionClient_mainapp}/mainapp_download.hex&quot; &quot;--elf=${workspace_loc:/BLE_Mesh_ProvisionClient_mainapp}/${config_name:BLE_Mesh_ProvisionClient_mainapp}/BLE_Mesh_ProvisionClient_mainapp.elf&quot;"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/BLE_Mesh_ProvisionClient_mainapp}"/>
+</launchConfiguration>

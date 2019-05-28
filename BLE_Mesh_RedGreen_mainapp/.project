@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>BLE_Mesh_RedGreen_mainapp</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>LaunchConfigHandle</key>
+					<value>&lt;project&gt;/.externalToolBuilders/Generate Source.launch</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.cypress.studio.app.cymodusnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/spar_setup.c</name>
+			<type>1</type>
+			<locationURI>CY_SDK_INSTALL_DIR/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/spar_setup.c</locationURI>
+		</link>
+		<link>
+			<name>bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/spar_utils.h</name>
+			<type>1</type>
+			<locationURI>CY_SDK_INSTALL_DIR/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/spar_utils.h</locationURI>
+		</link>
+		<link>
+			<name>bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/sparcommon.h</name>
+			<type>1</type>
+			<locationURI>CY_SDK_INSTALL_DIR/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common/sparcommon.h</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramBuilderLaunchConfigurationType">
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;resources&gt;&#10;&lt;item path=&quot;/BLE_Mesh_Dimmer_mainapp&quot; type=&quot;4&quot;/&gt;&#10;&lt;/resources&gt;}"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${cy_sdk_install_dir}/tools/modus-shell-1.0/bin/bash${cy_exe_platform_ext}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--norc --noprofile &quot;${cy_sdk_install_dir}/tools/wiced-scripts-1.0/bt_gen_lib_installer.bash&quot; &quot;--shell=${cy_sdk_install_dir}/tools/modus-shell-1.0&quot; &quot;--scripts=${cy_sdk_install_dir}/tools/wiced-scripts-1.0&quot; &quot;--out=${workspace_loc:/BLE_Mesh_Dimmer_mainapp}/20819/generated/lib_installer.c&quot;"/>
+<booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/BLE_Mesh_Dimmer_mainapp}"/>
+</launchConfiguration>

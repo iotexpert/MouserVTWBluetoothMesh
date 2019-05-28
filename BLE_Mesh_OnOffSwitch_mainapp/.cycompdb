@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_data>
+  <File wkspFile="GeneratedSource/cycfg_notices.h" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource/cycfg_notices.h" checksum="E8925786CD7DC784C721B411B3A04C2E5CAFA57D"/>
+  <File wkspFile="libraries/fw_upgrade_lib/ecc_pp.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/ecc_pp.c" checksum="6F869DC3D8C5AED8929A1DEABB268EE193C9FFF3"/>
+  <File wkspFile="GeneratedSource/cycfg_pins.c" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource/cycfg_pins.c" checksum="E00227D32978E8332DD5A67132EC89D50BDD9E23"/>
+  <File wkspFile="GeneratedSource/cycfg_pins.h" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource/cycfg_pins.h" checksum="5B5FFF93F4DAE6EF6633932717E47BC368ED1B29"/>
+  <File wkspFile="libraries/fw_upgrade_lib/ota_fw_upgrade.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/ota_fw_upgrade.c" checksum="2AC612FC818DE3601E458F5766DBFDE7EE60C8DB"/>
+  <File wkspFile="libraries/fw_upgrade_lib/p_256_types.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/p_256_types.h" checksum="A8A1FCDBB1CC0C4E187FA4121B74240369D1CC84"/>
+  <File wkspFile="libraries/fw_upgrade_lib/multprecision.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/multprecision.h" checksum="544349782895F84683ED20E58823938692F60DBF"/>
+  <File wkspFile="libraries/fw_upgrade_lib/ota_fw_upgrade.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/ota_fw_upgrade.h" checksum="4EF21151DA398AE8B485625295E93202A1D87C37"/>
+  <File wkspFile="libraries/fw_upgrade_lib/sha2.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/sha2.h" checksum="0C2803D040CC7E48F91F30510748910FA2C5931A"/>
+  <File wkspFile="wiced_platform.h" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/wiced_platform.h" checksum="EEB16E9D8BB0B820DF6472E074EA3486BC80A227"/>
+  <File wkspFile="design.modus" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/design.modus" checksum="66CE10F799BFEB8107498A059D5232E3BAC37F75"/>
+  <File wkspFile="libraries/mesh_app_lib/wiced_bt_cfg.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib/wiced_bt_cfg.c" checksum="F1727B4CA331EB7252AD7CD1ECC168E037D0D5A4"/>
+  <File wkspFile="wiced_platform.c" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/wiced_platform.c" checksum="D763531546398DBD49BEA02707C9723D58564A78"/>
+  <File wkspFile="GeneratedSource/cycfg.h" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource/cycfg.h" checksum="44FC45A58AF002B8A47CC09D3E753F1DF9783715"/>
+  <File wkspFile="libraries/mesh_app_lib/mesh_app_provision_server.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib/mesh_app_provision_server.c" checksum="07E837841682D92E5ACE021331B24849F35DF43B"/>
+  <File wkspFile="libraries/fw_upgrade_lib/fw_upgrade.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/208XX-A1/fw_upgrade.c" checksum="2D9C98505BFEB281B2ABCFEFEBBC04D9224821B3"/>
+  <File wkspFile="libraries/mesh_app_lib/mesh_application.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib/mesh_application.c" checksum="5EA339433BE60598BC715FEFD1789A3C5D227B6E"/>
+  <File wkspFile="libraries/mesh_app_lib/mesh_app_gatt.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib/mesh_app_gatt.c" checksum="C028CC63CC75E9DA5BEF3F044F8FB710AFF94CC7"/>
+  <File wkspFile="./on_off_switch.c" installFile="./on_off_switch.c" checksum="5F15DD16CA84324727C2DC3ED31E69B23C31E441"/>
+  <File wkspFile="208XX_readme.txt" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/208XX_readme.txt" checksum="A5ACC639945DF989141F709F451634A5B5C1EC8C"/>
+  <File wkspFile="./readme.txt" installFile="./readme.txt" checksum="DEABE30938DCD2C313A1D1F5C84B0C3C67FF1E23"/>
+  <File wkspFile="libraries/fw_upgrade_lib/ota_fw_upgrade_common.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/ota_fw_upgrade_common.c" checksum="D701C2080B3C2B07EC5AF2B89275B2CD3BDABABC"/>
+  <File wkspFile="libraries/fw_upgrade_lib/p_256_ecc_pp.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/p_256_ecc_pp.h" checksum="FC8DD51A6007B8F152DC1B5A5A912F061CCADE5D"/>
+  <File wkspFile="libraries/mesh_app_lib/mesh_app_hci.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib/mesh_app_hci.c" checksum="DF31191603746E790196B46A764A15A1B6CD9E99"/>
+  <File wkspFile="GeneratedSource/cycfg_routing.h" installFile="bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource/cycfg_routing.h" checksum="0D934D8F990EAC0EC45DA898C357C8F2D8018701"/>
+  <File wkspFile="libraries/fw_upgrade_lib/fw_update_copy_sflash.c" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/fw_update_copy_sflash.c" checksum="0CC424FD25DC8A665A1B1F2A8AC06908168141AD"/>
+  <File wkspFile="libraries/fw_upgrade_lib/p_256_multprecision.h" installFile="bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib/p_256_multprecision.h" checksum="74C9CF3EE63D5D67B16E83B82CFA9108277B0F40"/>
+  <artifact name="mainapp"/>
+</component_data>

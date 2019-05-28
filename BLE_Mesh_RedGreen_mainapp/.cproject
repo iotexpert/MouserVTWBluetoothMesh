@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239" name="Debug" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug" postbuildStep="${cy_sdk_install_dir}/tools/modus-shell-1.0/bin/bash --norc --noprofile &quot;${cy_sdk_install_dir}/tools/wiced-scripts-1.0/bt_post_build.bash&quot; &quot;--shell=${cy_sdk_install_dir}/tools/modus-shell-1.0&quot; &quot;--cross=${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/bin/arm-none-eabi-&quot; &quot;--scripts=${cy_sdk_install_dir}/tools/wiced-scripts-1.0&quot; &quot;--tools=${cy_sdk_install_dir}/tools/wiced-tools-1.0&quot; &quot;--builddir=${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}&quot; &quot;--elfname=BLE_Mesh_RedGreen_mainapp.elf&quot; &quot;--appname=mainapp&quot; &quot;--hdf=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/configdef20819A1.hdf&quot; &quot;--entry=spar_crt_setup.entry&quot; &quot;--cgslist=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.cgs ${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/../platforms/CYW208XXA1.cgs&quot; &quot;--cgsargs=-O DLConfigBD_ADDRBase:default -O ConfigDS2Location:0x53E000&quot; &quot;--btp=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/208XX_OCF.btp&quot; &quot;--id=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYW208XXA1_IDFILE.txt&quot; &quot;--minidriver=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/minidriver-20819A1-uart-patchram.hex&quot; &quot;--clflags=-NOHCIRESET&quot; --extras=OTA_XIP__APPDS2_" prebuildStep="${cy_sdk_install_dir}/tools/modus-shell-1.0/bin/bash --norc --noprofile &quot;${cy_sdk_install_dir}/tools/wiced-scripts-1.0/bt_pre_build.bash&quot; &quot;--shell=${cy_sdk_install_dir}/tools/modus-shell-1.0&quot; &quot;--scripts=${cy_sdk_install_dir}/tools/wiced-scripts-1.0&quot; &quot;--defs=XIP_DS_OFFSET=0x10100 XIP_OBJ=./light_dimmable.o;./led_control.o;./spar_setup.o;./wiced_platform.o;./wiced_platform_pin_config.o;./lib_installer.o APP_DS2_OBJ=./fw_update_copy_sflash.o APP_DS2_LEN=0x2000 BTP=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/208XX_OCF.btp FLASH0_BEGIN_ADDR=0x00500000 FLASH0_LENGTH=0x00040000 SRAM_BEGIN_ADDR=0x00200000 SRAM_LENGTH=0x00070000 AON_AREA_END=0x00204574 ISTATIC_BEGIN=0x500C00 ISTATIC_LEN=0x400 NUM_PATCH_ENTRIES=256&quot; &quot;--patch=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.elf&quot; &quot;--ld=${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}/mainapp.ld&quot;">
+					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239." name="/" resourcePath="">
+						<toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug.104422245" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.debug">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1974858195" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1811143376" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting" useByScannerDiscovery="false"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1772992506" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1381545593" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.size" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1870811295" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.157700540" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1409881362" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.720888299" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.400187585" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.max" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.2026084663" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format" useByScannerDiscovery="true"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1637855316" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU MCU Eclipse ARM Embedded GCC" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.628847175" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.603110941" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m4" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.610688641" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1120782561" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1769465647" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1826747023" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1066765988" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1800305318" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.875959806" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.540858894" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.525434878" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1458602950" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.846639535" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork.767565187" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.1893342242" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.little" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1082638092" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.soft" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.471095" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/Debug" command="${cy_tools_path:modus-shell}/bin/make" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1673113317" name="Gnu Make Builder.Debug" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.470842593" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1398313977" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1566258114" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WICED_BT_TRACE_ENABLE"/>
+									<listOptionValue builtIn="false" value="HCI_CONTROL"/>
+									<listOptionValue builtIn="false" value="LOW_POWER_NODE=0"/>
+									<listOptionValue builtIn="false" value="OTA_FW_UPGRADE_SFLASH_COPY"/>
+									<listOptionValue builtIn="false" value="ENABLE_SFLASH_UPGRADE"/>
+									<listOptionValue builtIn="false" value="SS_LOCATION=0x500000"/>
+									<listOptionValue builtIn="false" value="VS_LOCATION=0x500400"/>
+									<listOptionValue builtIn="false" value="DS_LOCATION=0x501400"/>
+									<listOptionValue builtIn="false" value="DS2_LOCATION=0x53E000"/>
+									<listOptionValue builtIn="false" value="CYW20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819=1"/>
+									<listOptionValue builtIn="false" value="CYW20819=1"/>
+									<listOptionValue builtIn="false" value="CHIP=20819"/>
+									<listOptionValue builtIn="false" value="APP_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="OTA_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="CHIP_REV_A_20819A1=1"/>
+									<listOptionValue builtIn="false" value="COMPILER_ARM"/>
+									<listOptionValue builtIn="false" value="SPAR_APP_SETUP=application_setup"/>
+									<listOptionValue builtIn="false" value="__TARGET_CPU_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__ARMCC_VERSION=400677"/>
+									<listOptionValue builtIn="false" value="POWER_CLASS=1"/>
+									<listOptionValue builtIn="false" value="PLATFORM='&quot;CYBT_213043_MESH&quot;'"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MAJOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MINOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_REV_NUMBER=2"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_BUILD_NUMBER=183"/>
+									<listOptionValue builtIn="false" value="SPAR_CRT_SETUP=spar_crt_setup"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.613772671" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/stack&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/internal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.other.1729312782" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.other" value="-funsigned-char -Wno-strict-aliasing -std=gnu11 -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include-fixed&quot;" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.22796478" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1652996908" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1872019330" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WICED_BT_TRACE_ENABLE"/>
+									<listOptionValue builtIn="false" value="HCI_CONTROL"/>
+									<listOptionValue builtIn="false" value="LOW_POWER_NODE=0"/>
+									<listOptionValue builtIn="false" value="OTA_FW_UPGRADE_SFLASH_COPY"/>
+									<listOptionValue builtIn="false" value="ENABLE_SFLASH_UPGRADE"/>
+									<listOptionValue builtIn="false" value="SS_LOCATION=0x500000"/>
+									<listOptionValue builtIn="false" value="VS_LOCATION=0x500400"/>
+									<listOptionValue builtIn="false" value="DS_LOCATION=0x501400"/>
+									<listOptionValue builtIn="false" value="DS2_LOCATION=0x53E000"/>
+									<listOptionValue builtIn="false" value="CYW20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819=1"/>
+									<listOptionValue builtIn="false" value="CYW20819=1"/>
+									<listOptionValue builtIn="false" value="CHIP=20819"/>
+									<listOptionValue builtIn="false" value="APP_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="OTA_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="CHIP_REV_A_20819A1=1"/>
+									<listOptionValue builtIn="false" value="COMPILER_ARM"/>
+									<listOptionValue builtIn="false" value="SPAR_APP_SETUP=application_setup"/>
+									<listOptionValue builtIn="false" value="__TARGET_CPU_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__ARMCC_VERSION=400677"/>
+									<listOptionValue builtIn="false" value="POWER_CLASS=1"/>
+									<listOptionValue builtIn="false" value="PLATFORM='&quot;CYBT_213043_MESH&quot;'"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MAJOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MINOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_REV_NUMBER=2"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_BUILD_NUMBER=183"/>
+									<listOptionValue builtIn="false" value="SPAR_CRT_SETUP=spar_crt_setup"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.203616800" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/stack&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/internal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.1776101296" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-mlong-calls -ffreestanding -Wno-implicit-function-declaration -fshort-wchar -funsigned-char -Wno-strict-aliasing -std=gnu11 -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include-fixed&quot; -Wno-implicit-function-declaration -Wno-unused-variable -Wno-unused-function @${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/gcc/20819A1.cflag" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.854105742" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.584452104" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1131436241" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.2105211082" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.otherobjs.25367587" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.otherobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/adc_audio_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/multi_adv_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/wiced_ble_pre_init_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/wiced_hidd_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/celt_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/air_motion.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/adpcm_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_core_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_models_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_provisioner_lib.a&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostdlibs.1529578603" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostdlibs" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1826575779" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-funsigned-char -Wno-strict-aliasing -Xlinker --gc-sections -Wl,-A,thumb -nodefaultlibs -Wl,--entry=spar_crt_setup -Wl,-z,muldefs -Wl,--no-warn-mismatch -Wl,--just-symbols=&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.elf&quot;" valueType="string"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1188877602" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}/mainapp.ld&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1901340691" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/lib"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart.555515178" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1584486541" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;gcc&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.345517794" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1240213440" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.856161588" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1537571493" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1078959722" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1825132965" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.1343017265" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.2051740754" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1210827025" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.1085660286" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.1988087592" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.966128211" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.487348124" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" useByScannerDiscovery="false"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${cross_rm} -rf" description="" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912" name="Release" parent="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release" postbuildStep="${cy_sdk_install_dir}/tools/modus-shell-1.0/bin/bash --norc --noprofile &quot;${cy_sdk_install_dir}/tools/wiced-scripts-1.0/bt_post_build.bash&quot; &quot;--shell=${cy_sdk_install_dir}/tools/modus-shell-1.0&quot; &quot;--cross=${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/bin/arm-none-eabi-&quot; &quot;--scripts=${cy_sdk_install_dir}/tools/wiced-scripts-1.0&quot; &quot;--tools=${cy_sdk_install_dir}/tools/wiced-tools-1.0&quot; &quot;--builddir=${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}&quot; &quot;--elfname=BLE_Mesh_RedGreen_mainapp.elf&quot; &quot;--appname=mainapp&quot; &quot;--hdf=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/configdef20819A1.hdf&quot; &quot;--entry=spar_crt_setup.entry&quot; &quot;--cgslist=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.cgs ${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/../platforms/CYW208XXA1.cgs&quot; &quot;--cgsargs=-O DLConfigBD_ADDRBase:default -O ConfigDS2Location:0x53E000&quot; &quot;--btp=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/208XX_OCF.btp&quot; &quot;--id=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYW208XXA1_IDFILE.txt&quot; &quot;--minidriver=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/minidriver-20819A1-uart-patchram.hex&quot; &quot;--clflags=-NOHCIRESET&quot; --extras=OTA_XIP__APPDS2_" prebuildStep="${cy_sdk_install_dir}/tools/modus-shell-1.0/bin/bash --norc --noprofile &quot;${cy_sdk_install_dir}/tools/wiced-scripts-1.0/bt_pre_build.bash&quot; &quot;--shell=${cy_sdk_install_dir}/tools/modus-shell-1.0&quot; &quot;--scripts=${cy_sdk_install_dir}/tools/wiced-scripts-1.0&quot; &quot;--defs=XIP_DS_OFFSET=0x10100 XIP_OBJ=./light_dimmable.o;./led_control.o;./spar_setup.o;./wiced_platform.o;./wiced_platform_pin_config.o;./lib_installer.o APP_DS2_OBJ=./fw_update_copy_sflash.o APP_DS2_LEN=0x2000 BTP=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/208XX_OCF.btp FLASH0_BEGIN_ADDR=0x00500000 FLASH0_LENGTH=0x00040000 SRAM_BEGIN_ADDR=0x00200000 SRAM_LENGTH=0x00070000 AON_AREA_END=0x00204574 ISTATIC_BEGIN=0x500C00 ISTATIC_LEN=0x400 NUM_PATCH_ENTRIES=256&quot; &quot;--patch=${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.elf&quot; &quot;--ld=${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}/mainapp.ld&quot;">
+					<folderInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912." name="/" resourcePath="">
+						<toolChain id="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release.1222221927" name="ARM Cross GCC" superClass="ilg.gnuarmeclipse.managedbuild.cross.toolchain.elf.release">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1839542880" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1056118454" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting" useByScannerDiscovery="false"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.212242694" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.1361586066" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level" useByScannerDiscovery="true" value="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.size" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.512915891" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.1054483182" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1744653663" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.973466887" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.1933104596" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level" useByScannerDiscovery="true"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1072008234" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format" useByScannerDiscovery="true"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.884261720" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name" value="GNU MCU Eclipse ARM Embedded GCC" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1378619051" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture" value="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.arm" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.708732748" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.mcpu.cortex-m4" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1922841246" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.thumb" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1371056418" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix" value="arm-none-eabi-" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.375868717" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c" value="gcc" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.185388057" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp" value="g++" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.606183090" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar" value="ar" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1822061526" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy" value="objcopy" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.2060417682" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump" value="objdump" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.559471096" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size" value="size" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.794976137" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make" value="make" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1574648790" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1374667608" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork.1099055710" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.thumbinterwork" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.558305223" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.endianness.little" valueType="enumerated"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1251110700" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.soft" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1468557386" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/Release" command="${cy_tools_path:modus-shell}/bin/make" id="ilg.gnuarmeclipse.managedbuild.cross.builder.855865751" name="Gnu Make Builder.Release" parallelBuildOn="true" parallelizationNumber="optimal" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.549842375" name="GNU ARM Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.423843397" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.246184035" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WICED_BT_TRACE_ENABLE"/>
+									<listOptionValue builtIn="false" value="HCI_CONTROL"/>
+									<listOptionValue builtIn="false" value="LOW_POWER_NODE=0"/>
+									<listOptionValue builtIn="false" value="OTA_FW_UPGRADE_SFLASH_COPY"/>
+									<listOptionValue builtIn="false" value="ENABLE_SFLASH_UPGRADE"/>
+									<listOptionValue builtIn="false" value="SS_LOCATION=0x500000"/>
+									<listOptionValue builtIn="false" value="VS_LOCATION=0x500400"/>
+									<listOptionValue builtIn="false" value="DS_LOCATION=0x501400"/>
+									<listOptionValue builtIn="false" value="DS2_LOCATION=0x53E000"/>
+									<listOptionValue builtIn="false" value="CYW20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819=1"/>
+									<listOptionValue builtIn="false" value="CYW20819=1"/>
+									<listOptionValue builtIn="false" value="CHIP=20819"/>
+									<listOptionValue builtIn="false" value="APP_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="OTA_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="CHIP_REV_A_20819A1=1"/>
+									<listOptionValue builtIn="false" value="COMPILER_ARM"/>
+									<listOptionValue builtIn="false" value="SPAR_APP_SETUP=application_setup"/>
+									<listOptionValue builtIn="false" value="__TARGET_CPU_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__ARMCC_VERSION=400677"/>
+									<listOptionValue builtIn="false" value="POWER_CLASS=1"/>
+									<listOptionValue builtIn="false" value="PLATFORM='&quot;CYBT_213043_MESH&quot;'"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MAJOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MINOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_REV_NUMBER=2"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_BUILD_NUMBER=183"/>
+									<listOptionValue builtIn="false" value="SPAR_CRT_SETUP=spar_crt_setup"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1403571716" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/stack&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/internal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.other.1448230891" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.other" value="-funsigned-char -Wno-strict-aliasing -std=gnu11 -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include-fixed&quot;" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1420805119" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1299212053" name="GNU ARM Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1505786596" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WICED_BT_TRACE_ENABLE"/>
+									<listOptionValue builtIn="false" value="HCI_CONTROL"/>
+									<listOptionValue builtIn="false" value="LOW_POWER_NODE=0"/>
+									<listOptionValue builtIn="false" value="OTA_FW_UPGRADE_SFLASH_COPY"/>
+									<listOptionValue builtIn="false" value="ENABLE_SFLASH_UPGRADE"/>
+									<listOptionValue builtIn="false" value="SS_LOCATION=0x500000"/>
+									<listOptionValue builtIn="false" value="VS_LOCATION=0x500400"/>
+									<listOptionValue builtIn="false" value="DS_LOCATION=0x501400"/>
+									<listOptionValue builtIn="false" value="DS2_LOCATION=0x53E000"/>
+									<listOptionValue builtIn="false" value="CYW20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819A1=1"/>
+									<listOptionValue builtIn="false" value="BCM20819=1"/>
+									<listOptionValue builtIn="false" value="CYW20819=1"/>
+									<listOptionValue builtIn="false" value="CHIP=20819"/>
+									<listOptionValue builtIn="false" value="APP_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="OTA_CHIP=20819"/>
+									<listOptionValue builtIn="false" value="CHIP_REV_A_20819A1=1"/>
+									<listOptionValue builtIn="false" value="COMPILER_ARM"/>
+									<listOptionValue builtIn="false" value="SPAR_APP_SETUP=application_setup"/>
+									<listOptionValue builtIn="false" value="__TARGET_CPU_CORTEX_M4"/>
+									<listOptionValue builtIn="false" value="__ARMCC_VERSION=400677"/>
+									<listOptionValue builtIn="false" value="POWER_CLASS=1"/>
+									<listOptionValue builtIn="false" value="PLATFORM='&quot;CYBT_213043_MESH&quot;'"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MAJOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_MINOR_VER=1"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_REV_NUMBER=2"/>
+									<listOptionValue builtIn="false" value="WICED_SDK_BUILD_NUMBER=183"/>
+									<listOptionValue builtIn="false" value="SPAR_CRT_SETUP=spar_crt_setup"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths.813535812" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/stack&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/hal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819/internal&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/include/20819&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/mesh_app_lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/platforms/CYBT_213043_MESH/GeneratedSource&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/common/libraries/fw_upgrade_lib&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.964230103" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-mlong-calls -ffreestanding -Wno-implicit-function-declaration -fshort-wchar -funsigned-char -Wno-strict-aliasing -std=gnu11 -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include&quot; -isystem &quot;${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/arm-none-eabi/lib/include-fixed&quot; -Wno-implicit-function-declaration -Wno-unused-variable -Wno-unused-function @${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/gcc/20819A1.cflag" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.456496494" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1872312045" name="GNU ARM Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler"/>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1689546892" name="GNU ARM Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections.1323847956" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.gcsections" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.otherobjs.1124331019" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.otherobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/adc_audio_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/multi_adv_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/wiced_ble_pre_init_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/wiced_hidd_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/celt_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/air_motion.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/adpcm_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_core_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_models_lib.a&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/libraries/mesh_provisioner_lib.a&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostdlibs.634635323" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostdlibs" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other.1768917107" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.other" value="-funsigned-char -Wno-strict-aliasing -Xlinker --gc-sections -Wl,-A,thumb -nodefaultlibs -Wl,--entry=spar_crt_setup -Wl,-z,muldefs -Wl,--no-warn-mismatch -Wl,--just-symbols=&quot;${cy_sdk_install_dir}/libraries/bt_sdk-1.1/components/BT-SDK/208XX-A1_Bluetooth/WICED/internal/20819A1/patches/patch.elf&quot;" valueType="string"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.2012314616" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BLE_Mesh_RedGreen_mainapp}/${config_name:BLE_Mesh_RedGreen_mainapp}/mainapp.ld&quot;"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1100476796" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${cy_sdk_install_dir}/tools/gcc-7.2.1-1.0/lib"/>
+								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart.1076418056" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.nostart" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1242458079" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;gcc&quot;"/>
+								</option>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.168805414" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${cross_toolchain_flags} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -Wl,--start-group ${INPUTS} -Wl,--end-group" id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.132349331" name="GNU ARM Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections.1463836368" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.gcsections" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.2081963100" name="GNU ARM Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1651889018" name="GNU ARM Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.927271849" name="GNU ARM Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source.1940733710" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.source" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders.1047791528" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.allheaders" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle.1353990611" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.demangle" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers.1782987585" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.linenumbers" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide.160397097" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.createlisting.wide" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1731065396" name="GNU ARM Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.1931414191" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format" useByScannerDiscovery="false"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="BLE_Mesh_RedGreen_mainapp.ilg.gnuarmeclipse.managedbuild.cross.target.modus.elf.16551324" name="ModusToolbox IDE Application" projectType="ilg.gnuarmeclipse.managedbuild.cross.target.modus.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239;ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.969582239.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1652996908;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.854105742">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912;ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.696434912.;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1299212053;ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.456496494">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
